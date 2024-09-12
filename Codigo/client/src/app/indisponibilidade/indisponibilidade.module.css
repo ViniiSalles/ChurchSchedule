@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    gap: 16px; /* Espaçamento entre os elementos */
+    margin-bottom: 16px; /* Espaçamento inferior para separar as linhas */
+}
+
+.infoSelect {
+    flex: 1; /* Permite que os elementos cresçam igualmente */
+}
+
+.tableHead {
+    background-color: #8c232c;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.evenRow {
+    background-color: #f2f2f2;
+}
+
+.oddRow {
+    background-color: #ffffff;
+}
+
+.addButton {
+    margin-bottom: 16px; /* Espaço entre o botão e a tabela */
+}
+
+

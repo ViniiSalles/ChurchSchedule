@@ -1,0 +1,64 @@
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modalContent {
+    width: 500px;
+    height: 390px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 101;
+    border: 1px groove #8C232C;
+    box-shadow: #8c232ccb 0px 19px 38px, #00000038 0px 15px 12px;
+}
+
+#box{
+    margin-top: 10px;
+}
+
+#buttonsection{
+    width: 200px;
+    margin: auto;
+}
+
+#confirmButton{
+    background-color: #8C232C;
+}
+
+#cancelButton{
+    background-color: #aaa9a9;
+}
+
+.cancelPic{
+    height: 120px;
+    width: 120px;
+    margin:  auto;
+}
+
+#textContainer{
+    width: 400px;
+    margin: 30px auto 30px;
+}
+
+#mainText{
+font-size: 17px;
+}
+
+#auxText{
+    width: 100%;
+    padding-top: 10px;
+    border-top: 3px groove #a9a2a219;
+    margin-top: 15px;
+    font-size: small;
+}

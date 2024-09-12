@@ -1,0 +1,51 @@
+{
+  "name": "schedule",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@mantine/core": "^7.7.0",
+    "@mantine/dates": "^7.7.1",
+    "@mantine/form": "^7.7.1",
+    "@mantine/hooks": "^7.7.0",
+    "@syncfusion/ej2-locale": "^25.2.3",
+    "@syncfusion/ej2-react-schedule": "^25.2.3",
+    "@tabler/icons-react": "^3.2.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "framer-motion": "^11.2.6",
+    "jwt-decode": "^4.0.0",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "^18",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^5.2.1",
+    "react-imask": "^7.5.0",
+    "react-modal": "^3.16.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "@types/react": "18.3.1",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "14.1.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.13.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.4.5"
+  }
+}

@@ -1,0 +1,69 @@
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    width: 90%;
+    max-width: 500px;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 1000;
+    border: 1px groove #8C232C;
+    box-shadow: #8c232ccb 0px 19px 38px, #00000038 0px 15px 12px;
+}
+
+.buttons:hover{
+    background-color: #e6e6e6;
+    color: #8C232C;
+    box-shadow: #8C232C;
+    box-shadow: #8c232ccb 0px 0px 20px, #00000038 0px 15px 12px;
+
+}
+
+#eventNameText{
+    text-align: center;
+    font-size: x-large;
+    border-bottom: 3px solid #cccccc9f;
+    padding-bottom: 5px;
+}
+
+#detailsGroup{
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+.infodata{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+}
+
+.labels{
+    font-weight: bold;
+}
+
+#buttonArea{
+    border-top: 3px solid #cccccc9f;
+    padding: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;
+    margin: 20px 0px 10px 0px;
+
+}
+
+/* #closeButton{
+    padding: 0;
+    width: 80px;
+    align-self: center;
+} */

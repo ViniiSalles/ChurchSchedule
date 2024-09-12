@@ -1,0 +1,19 @@
+.buttonn {
+    background-color: #8c232c;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.wrapper_info {
+    margin-bottom: 16px;
+}
+
+.info_title {
+    font-weight: bold;
+}

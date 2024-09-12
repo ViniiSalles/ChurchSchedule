@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb",
+        "next",
+        "next/core-web-vitals",
+        "next/babel"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "next/link-passhref": "error"
+    }
+}

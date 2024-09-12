@@ -1,0 +1,26 @@
+.root {
+    padding-top: rem(80px);
+    padding-bottom: rem(80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.description {
+    max-width: rem(500px);
+    margin: auto;
+    margin-top: var(--mantine-spacing-xl);
+    margin-bottom: calc(1.5 * var(--mantine-spacing-xl));
+}
+
+.title {
+    font-family:
+        Greycliff CF,
+        var(--mantine-font-family);
+    text-align: center;
+    font-weight: 900;
+    font-size: rem(38px);
+    padding-bottom: rem(20px);
+
+}

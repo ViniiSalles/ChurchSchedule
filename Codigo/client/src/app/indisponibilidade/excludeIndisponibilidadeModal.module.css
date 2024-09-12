@@ -1,0 +1,38 @@
+.containerModal{
+    height: 150px;
+}
+
+.modalButtons{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons{
+    margin-right: 10px;
+}
+
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modalContent {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 101;
+    border: 1px groove #8C232C;
+    box-shadow: #8c232ccb 0px 19px 38px, #00000038 0px 15px 12px;
+}

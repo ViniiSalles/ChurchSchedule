@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+    .btn_space{
+        margin: 5px;
+    }
+
+
+.w_22R{
+    width: 22rem;
+}
+
+.w_25R{
+    width: 35rem;
+}
+
+#excludebutton{
+    background-color: #aaa9a9;
+    margin-left: 10px;
+}
+
+#savebutton{
+    margin-right: 10px;
+}
+.buttonContainer{
+    margin-top: 15px;
+}
+
+.tablediv{
+    margin-top: 15px;
+}
+.infoSelect{
+    margin-right: 10px;
+}
+
+.tabletit{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.tabletit::first-letter {
+    text-transform: capitalize;
+}
+
+.tableHead{
+background-color: #8c232c;
+color: #f2f2f2;
+text-align: center;
+}
+
+.tableData{
+    background-color: #f2f2f2;
+    border-left: 3px solid #f0f0f05d;
+    border-bottom: #8c232c;
+    text-align: center;
+}
+
+
+.tables{
+    margin-top: 20px;
+}
+
+.marginL10{
+    margin-left: 10px;
+}
+.marginR10{
+    margin-right: 10px;
+}
+
+#selectContainer{
+    display: flex;
+    
+}
+
+.containerrrr{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+}

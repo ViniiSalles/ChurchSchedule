@@ -1,0 +1,29 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Church Schedule
+authors:
+  - family-names: Dias Pinto
+    given-names: David
+  - family-names: Luis Vieira
+    given-names: Alfredo
+  - family-names: Evangelista Gomes de Azevedo
+    given-names: Bruno
+  - family-names: Salles de Oliveira
+    given-names: Vinicius
+  - family-names: Rafael de Neiva Machado
+    given-names: Victor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alonso Veloso
+    given-names: Eveline 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Hanne Soares de Andrade
+    given-names: Michelle 
+keywords:
+  - Calendário
+  - Gerenciamento de escalas
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti3-9545100-church-schedule
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-21

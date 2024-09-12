@@ -1,0 +1,77 @@
+Texto para saber como que as tabelas estão. Sempre que o BD for alterado gostaria que os senhores atualizassem aqui também
+
+
+CREATE TABLE events (
+    id  NOT NULL SERIAL,
+    nameEvent VARCHAR(100) NOT NULL,
+    dateEvent DATE NOT NULL,
+    hourEvent TIME NOT NULL,
+    typeEvent VARCHAR(100) NOT NULL,
+    descEvent VARCHAR(100) NOT NULL,
+    preletor VARCHAR(255),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE roles (
+    id INT SERIAL PRIMARY KEY,
+    descricao VARCHAR(45) NOT NULL,
+    ministerio ENUM('diaconia', 'louvor', 'midia') NOT NULL
+);
+
+CREATE TABLE members (
+    id  NOT NULL SERIAL,
+    name VARCHAR(100) NOT NULL,
+    telefone VARCHAR(25) NOT NULL,
+    diaconia BOOLEAN NOT NULL,
+    louvor BOOLEAN NOT NULL,
+    midia BOOLEAN NOT NULL,
+    PRIMARY KEY (id)
+);
+CREATE TYPE ministerio AS ENUM ('diaconia', 'louvor', 'midia');
+
+CREATE TABLE roles (
+    id SERIAL PRIMARY KEY,
+    descricao VARCHAR(45) NOT NULL,
+    ministerio ministerio NOT NULL
+);
+
+CREATE TABLE scale (
+    id SERIAL PRIMARY KEY,
+    idCargos INT NOT NULL,
+    idEventos INT NOT NULL,
+    idMembro INT NOT NULL,
+    FOREIGN KEY (idCargos) REFERENCES cargos(idCargos),
+    FOREIGN KEY (idEventos) REFERENCES events(id),
+    FOREIGN KEY (idMembro) REFERENCES members(id)
+);
+
+CREATE TABLE MemberBand (
+    id SERIAL PRIMARY KEY,
+    idMember INT,
+    idBand INT,
+    idRoles INT,
+    FOREIGN KEY (IdMember) REFERENCES member(id),
+    FOREIGN KEY (IdBand) REFERENCES Bands(id),
+    FOREIGN KEY (idRoles) REFERENCES roles(id)
+);
+
+CREATE TABLE Bands (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE volunteers (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255),
+    cargo VARCHAR(255),
+    idEvent INTEGER,
+    FOREIGN KEY (idEvent) REFERENCES event(id)
+);
+
+CREATE TABLE unavailable (
+    id SERIAL PRIMARY KEY,
+    idMembro INT NOT NULL,
+    dataInicio DATE NOT NULL,
+    dataFim DATE NOT NULL,
+    CONSTRAINT fk_member FOREIGN KEY (idMembro) REFERENCES member(id)
+);

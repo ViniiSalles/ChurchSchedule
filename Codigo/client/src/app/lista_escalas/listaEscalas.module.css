@@ -1,0 +1,57 @@
+#excludeButton{
+    text-align: end;
+    /* padding: 0; */
+    font-size: 15px;
+} 
+
+#exButton{
+    width: 80px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+}
+
+#edButton{
+    width: 80px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* #eventName{
+    padding: 0;
+} */
+
+/* #deleteIcon{
+    width: 20px;
+    height: 20px;
+} */
+
+.tableHead{
+    width: 150px;
+    text-align: center;
+    color: #f2f2f2;
+    /* border-right: 3px solid #642026; */
+    background-color: #8c232c;
+    text-align: center;
+}
+
+.tableData{
+    width: 150px;
+    text-align: center;
+    border-right: 3px solid #ffffff;
+    background-color: #f2f2f2;
+}
+
+#tableDiv{
+margin-bottom: 50px;
+}
+
+.nome_evento {
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
