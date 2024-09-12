@@ -1,3 +1,5 @@
+## Este é um repositorio duplicado apenas para fins de demonstração
+
 # church-schedule
 A Igreja Batista Betel é uma instituição evangélica que segue a denominação batista do cristianismo. Ela conta com cerca de 500 membros distribuídos em 5 filiais, além da igreja matriz que está localizada no bairro Flamengo. Na igreja matriz, trabalham cerca de 60 obreiros e 7 pastores divididos entre 3 ministérios (Louvor, Mídia e Diaconia) e o gabinete pastoral
 
